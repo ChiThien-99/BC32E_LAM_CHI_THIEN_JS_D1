@@ -17,6 +17,7 @@ document.getElementById('btnTinhLuong').onclick=function(event){
     output.style.fontSize="40px";
     output.style.fontWeight="600";
     output.innerHTML=(input*100000).toLocaleString('vi-VN')+" vnđ";
+    console.log((input*100000).toLocaleString('vi-VN')+" vnđ");
 }
 /*
 Đầu vào:
@@ -46,6 +47,7 @@ document.getElementById('btnTinhTB').onclick=function(event){
     output.style.fontSize="40px";
     output.style.fontWeight="600";
     output.innerHTML=(number1+number2+number3+number4+number5)/5;
+    console.log((number1+number2+number3+number4+number5)/5);
 }
 /*
 Đầu vào:
@@ -66,7 +68,8 @@ document.getElementById('btnQD').onclick=function(event){
     var output=document.getElementById('outputEx3');
     output.style.fontSize="40px";
     output.style.fontWeight="600";
-    output.innerHTML=(input*23500).toLocaleString('vi-VN')+" vnđ"
+    output.innerHTML=(input*23500).toLocaleString('vi-VN')+" vnđ";
+    console.log((input*23500).toLocaleString('vi-VN')+" vnđ");
 }
 /*
 Đầu vào:
@@ -93,6 +96,7 @@ document.getElementById('btnDtCv').onclick=function(event){
     output.style.fontSize="40px";
     output.style.fontWeight="600";
     output.innerHTML="Diện tích = " + dienTich  + "; Chu vi = " + chuVi; 
+    console.log("Diện tích = " + dienTich  + "; Chu vi = " + chuVi);
 }
 /*
 Đầu vào:
@@ -117,4 +121,5 @@ document.getElementById('btnHCS').onclick=function(event){
     output.style.fontSize="40px";
     output.style.fontWeight="600";
     output.innerHTML=hangChuc+hangDV;
+    console.log(hangChuc+hangDV);
 }
